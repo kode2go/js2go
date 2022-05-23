@@ -1,6 +1,6 @@
 # Javascript to go!
 
-# Setup
+# Evaluate JavaScript in VS Code and Browser Console
 
 1. Install visual studio code
 
