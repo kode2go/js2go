@@ -24,9 +24,15 @@ https://www.w3schools.com/js/
 
 # Lessons
 
-1. Lesson 1 - Comments, console.log, variables
+Lesson 1 - Comments, console.log, variables
 
-2. Lesson 2 - Arrays and object literals
+Lesson 2 - Arrays and object literals
+
+Lesson 3 - Loops, conditionals, array methods
+
+Lesson 4 - Functions, Arrow Functions
+
+Lesson 5 - OOP, protoypes, classes
 
 # Setup in VS Code and Browser Console
 
