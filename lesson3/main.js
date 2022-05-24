@@ -1,4 +1,24 @@
-// Part 4 - loops
+# Loops
+
+const todos = [
+	{
+		id: 1,
+		text: 'Take out trash',
+		isComplete: true
+	},
+
+	{
+		id: 2,
+		text: 'Meeting with boss',
+		isComplete: true
+	},
+
+	{
+		id: 3,
+		text: 'Denits',
+		isComplete: false
+	},
+]
 
 for(let i = 0; i < 10; i++)
 {
