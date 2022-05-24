@@ -1,6 +1,28 @@
 # Javascript to go!
 
-# Evaluate JavaScript in VS Code and Browser Console
+JavaScript is the world's most popular programming language checkout.
+
+It is the programming language of the web browsers yo use everyday.
+
+Its the 3 languages web developers must learn:
+
+1. HTML - content of web pages
+2. CSS - layout, style, look and feel of web page
+3. JavaScript - dynamic nature and behavour of web pages
+
+```
+JavaScript was previously used mainly for making webpages interactive such as form validation, animation, etc. Nowadays, JavaScript is also used in many other areas such as server-side development, mobile app development and so on.
+```
+
+Try out the basics here:
+
+https://www.javascript.com/
+
+https://www.programiz.com/javascript/get-started
+
+https://www.w3schools.com/js/
+
+# Setup in VS Code and Browser Console
 
 1. Install visual studio code
 
@@ -39,7 +61,7 @@ In VS Code there is a shortcut to get this by pressing `!` + `tab` key.
 
 ![image](https://user-images.githubusercontent.com/29664888/169914156-3dc56699-4564-4c02-a8d0-5c41031ce6b5.png)
 
-9. To get the browser Chrome console, go to the `three dots`, `more tools`, then `developer tools`
+9. Chrome is the suggested browser to use. To get the browser console press `F12` on a windows machine for Chrome, Firefox and Edge. Or to go their manually on Chrome go to the `three dots`, `more tools`, then `developer tools`
 
 10. Then select `console`:
 
