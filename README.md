@@ -11,7 +11,10 @@ Its the 3 languages web developers must learn:
 3. JavaScript - dynamic nature and behavour of web pages
 
 ```
-JavaScript was previously used mainly for making webpages interactive such as form validation, animation, etc. Nowadays, JavaScript is also used in many other areas such as server-side development, mobile app development and so on.
+JavaScript was previously used mainly for making webpages interactive such as 
+form validation, animation, etc. 
+Nowadays, JavaScript is also used in many other areas 
+such as server-side development, mobile app development and so on.
 ```
 
 Try out the basics here:
