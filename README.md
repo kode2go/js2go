@@ -25,6 +25,26 @@ https://www.programiz.com/javascript/get-started
 
 https://www.w3schools.com/js/
 
+# What can JS do?
+
+It can add two numbers together in any browser console using
+
+```javascript
+console.log(45+2)
+```
+
+You can create variables, functions, loops, conditions, and many more.
+
+It is really used to interact, modify and change HTML content. 
+
+For example, given an html element with `id=demo` you can change its text with:
+
+```javascript
+document.getElementById("demo").innerHTML = "Hello JavaScript"; 
+```
+
+It can do much more like changing images on button request, changing CSS, and much more. In the next few lessons we will be learning the basics:
+
 # Lessons
 
 Lesson 1 - Comments, console.log, variables
