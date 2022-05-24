@@ -22,6 +22,12 @@ https://www.programiz.com/javascript/get-started
 
 https://www.w3schools.com/js/
 
+# Lessons
+
+1. Lesson 1 - Comments, console.log, variables
+
+2. Lesson 2 - Arrays and object literals
+
 # Setup in VS Code and Browser Console
 
 1. Install visual studio code
