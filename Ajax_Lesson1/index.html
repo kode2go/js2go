@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Ajax 1 - Text File </title>
+</head>
+<body>
+
+    <button id="button">Get Text File</button>
+
+    <br>  
+    <br>
+    <div id="text"></div>
+
+
+    <script>
+
+        //create event listener
+        document.getElementById('button').addEventListener('click',loadText);
+
+        function loadText()
+        {
+            console.log('button clicked')
+            // create XHR object
+            var xhr = new XMLHttpRequest();
+            // open function - type, url/file, asyn/!asyn
+            console.log(xhr)
+            // we want open
+            xhr.open('GET','sample.txt',true);
+
+            console.log('READYSTATE: ',xhr.readyState)
+
+            /*new way*/
+            // onload or onreadystatechange
+            // check for status of response
+            xhr.onload = function(){
+                console.log('READYSTATE on load: ',xhr.readyState)
+                if(this.status == 200)
+                {
+                    // 200 means ok - for request from server
+                    // this is the sample.txt
+                    console.log(this.responseText);
+                    document.getElementById('text').innerHTML = 
+                    this.responseText;
+                }
+                else if(this.status == 404)
+                {
+                    document.getElementById('text').innerHTML = 
+                    'Not Found'
+                }
+                // 403 - forbiden
+                // 404 - not found
+            }
+            // sends request
+            xhr.send();
+
+            /*old way*/
+            // need to check for extra var - statechange
+            xhr.onreadystatechange = function(){
+                console.log('READYSTATE: ',xhr.readyState)
+                if(this.readyState == 4 && this.status == 200)
+                {
+                    console.log(this.responseText)
+                }
+                // 0 - request init
+                // 1 - server conn est
+                // 2 - request received
+                // 3 - on request
+                // 4 - ready state
+            }
+
+            xhr.onerror = function(){
+                console.log('Request Error...')
+            }
+
+            // OPTIONAL - used for loaders - round loading image
+
+            xhr.onprogress = function()
+            {
+                console.log('READYSTATE on progress: ',xhr.readyState)
+            }
+
+        }
+    </script>
+</body>
+</html>
