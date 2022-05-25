@@ -25,7 +25,14 @@ https://www.programiz.com/javascript/get-started
 
 https://www.w3schools.com/js/
 
-AJAX Ref:
+AJAX / API Ref:
+
+https://www.youtube.com/watch?v=hdI2bqOjy3c
+
+https://www.youtube.com/watch?v=W6NZfCO5SIk
+
+https://www.youtube.com/watch?v=PkZNo7MFNFg
+
 https://www.youtube.com/watch?v=82hnvUYY6QA
 
 
