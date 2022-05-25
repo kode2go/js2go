@@ -25,6 +25,10 @@ https://www.programiz.com/javascript/get-started
 
 https://www.w3schools.com/js/
 
+AJAX Ref:
+https://www.youtube.com/watch?v=82hnvUYY6QA
+
+
 # What can JS do?
 
 It can add two numbers together in any browser console using
