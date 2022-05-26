@@ -68,6 +68,10 @@ Lesson 4 - Functions, Arrow Functions
 
 Lesson 5 - OOP, protoypes, classes
 
+Lesson 6 - DOM
+
+Lesson 7 - API - Reading txt, JSON, API
+
 # Setup in VS Code and Browser Console
 
 1. Install visual studio code
