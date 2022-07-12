@@ -64,3 +64,45 @@ Now alert is not ideal to use as it blocks all other features of the site, so we
 
 ## The Basics
 
+So let us first comment out the `alert("hello world")` with `//` in front of it:
+
+```js
+//alert("hello world")
+```
+
+Or we can also use `/* */` for multi-line comments:
+
+```js
+/*
+alert("hello world")
+*/
+```
+
+Now let us create some variables, namely `highscore`, `myname` and `myage` and we do that using the `let` and `const` keywords.
+We also assign it values like:
+
+```js
+let highscore = 0
+highscore = 98
+const myname = 'myname'
+const myage = 50
+```
+
+So highscore was fist assigned the value `0` and then changed to `98` which is what you can do with `let`. However, with `const` we can't
+change it again. We assigned `myname` to `'myname'` and not the single quotes we used as its text. And then `myage` with 50.
+
+Let us now print out these values in the console with `console.log` in the following way:
+
+```js
+let highscore = 0
+highscore = 98
+
+const myname = 'myname'
+const myage = 50
+
+console.log('My highscore ' + highscore + ' in the game');
+
+// back ticks allow you to add variables inside the string
+console.log(`my name is ${myname} and age is ${myage}`)
+```
+
