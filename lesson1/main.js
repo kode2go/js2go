@@ -9,7 +9,7 @@ multi-line comment
 let highscore = 0
 highscore = 98
 
-const myname = 'kossi'
+const myname = 'myname'
 const myage = 50
 
 console.log('My highscore ' + highscore + ' in the game');
