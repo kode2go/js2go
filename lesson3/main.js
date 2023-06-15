@@ -1,24 +1,33 @@
 // Loops
 
-const todos = [
+let todos = [
 	{
 		id: 1,
 		text: 'Take out trash',
-		isComplete: true
+		isComplete: true,
+		date: '2023-01-01'
 	},
 
 	{
 		id: 2,
 		text: 'Meeting with boss',
-		isComplete: true
+		isComplete: true,
+		date: '2023-02-04'
 	},
 
 	{
 		id: 3,
 		text: 'Denits',
-		isComplete: false
+		isComplete: false,
+		date: '2023-05-21'
 	},
 ]
+
+todos.push({
+    id: 4,
+    text: 'Meeting with bank',
+    isComplete: true,
+    date: '2023-06-11'});
 
 for(let i = 0; i < 10; i++)
 {
@@ -43,6 +52,27 @@ for(let i = 0; i < todos.length; i++)
 
 	console.log(todos[i]);
 }
+
+// Filter certing lists based on 'Meeting'
+
+let filteredTexts = [];
+for (let i = 0; i < todos.length; i++) {
+  if (todos[i].text.includes('Meeting')) {
+    filteredTexts.push(todos[i].text);
+  }
+}
+
+filteredTexts
+
+// Change certain field
+
+for (let i = 0; i < todos.length; i++) {
+  if (todos[i].id === 2) {
+    todos[i].text = 'Dinner';
+    break; // Assuming there is only one object with id: 2, we can exit the loop once found
+  }
+}
+
 
 // for of - easier to read
 
